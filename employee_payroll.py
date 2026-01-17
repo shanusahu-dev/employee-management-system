@@ -4,7 +4,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="shanu123",
+        password="Shanu123",
         database="company_db"
     )
 
@@ -15,9 +15,10 @@ def add_employee():
     emp_id = int(input("Enter ID: "))
     name = input("Enter name: ")
     salary = float(input("Enter salary: "))
-
     tax = salary * 0.1
     net_salary = salary - tax
+    print(f"Calculated Tax(10%): {tax}")
+    print(f"Net Salary: {net_salary}")
 
     query = """
     INSERT INTO employees (emp_id, name, salary, tax, net_salary)
