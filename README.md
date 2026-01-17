@@ -1,33 +1,24 @@
-# Employee Payroll Management System
+## Employee Management System (Python)
 
-## 📖 Description
-A Python & MySQL based console application to manage employee payroll.
-This project allows adding employees, calculating salary, tax, net salary,
-and viewing employee reports. Data is stored in a MySQL database.
+A simple menu-driven Employee Management System built using Python.
 
----
-
-## 🛠️ Technologies Used
-- Python 3
-- MySQL
-- mysql-connector-python
-- Core Python (OOP, Functions, Dictionaries)
-- SQL Queries (INSERT, SELECT, UPDATE)
-
----
-
-## ✨ Features
+## Features
 - Add new employee records
-- Calculate salary, tax, and net salary
-- View all employee details
+- View all employees
 - Search employee by ID
-- Store and fetch data from MySQL database
-- Menu-driven console interface
+- Update employee details
+- Delete employee
+- Menu-driven console application
 
----
+## Technologies Used
+- Python 3
+- Dictionary (in-memory storage)
 
-## ▶️ How to Run the Project
-1. Install Python 3 and MySQL
-2. Install MySQL connector:
-   ```bash
-   pip install mysql-connector-python
+## How to Run the Project
+
+1. Make sure Python 3 is installed
+2. Clone the repository:
+```bash
+git clone
+https://github.com/shanusahu-dev/employee-management-system.git
+   
